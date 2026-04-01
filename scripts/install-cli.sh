@@ -3,7 +3,7 @@
 set -euo pipefail
 
 APP_NAME="edi-parser"
-REPO="${EDI_PARSER_GITHUB_REPO:-mohamed-aalabou/edi-parser}"
+REPO="${EDI_PARSER_GITHUB_REPO:-1450Digital/edi-parser}"
 INSTALL_DIR="${EDI_PARSER_INSTALL_DIR:-$HOME/.local/bin}"
 REQUESTED_VERSION="${EDI_PARSER_VERSION:-latest}"
 RELEASE_BASE_URL="${EDI_PARSER_RELEASE_BASE_URL:-}"
@@ -18,7 +18,7 @@ Usage:
 Environment variables:
   EDI_PARSER_VERSION           Release version or 'latest'
   EDI_PARSER_INSTALL_DIR       Install directory (default: ~/.local/bin)
-  EDI_PARSER_GITHUB_REPO       GitHub repo slug (default: mohamed-aalabou/edi-parser)
+  EDI_PARSER_GITHUB_REPO       GitHub repo slug (default: 1450Digital/edi-parser)
   EDI_PARSER_RELEASE_BASE_URL  Override download base URL for testing
 EOF
 }
