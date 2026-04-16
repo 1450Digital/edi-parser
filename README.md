@@ -26,7 +26,7 @@ curl -fsSL https://raw.githubusercontent.com/1450Digital/edi-parser/main/scripts
 edi-parser --help
 ```
 
-If you want to build and install the command from source:
+If you want to build and install the command from source :
 
 ```bash
 bun run install:cli
