@@ -2,7 +2,7 @@
 
 The CLI supports:
 
-- Parsing a single EDI file to JSON
+- Parsing a single EDI file to JSON (depracated)
 - Parsing multiple files into one manifest
 - Running de-identification and writing redacted EDIs to disk
 - Persisting CLI settings in a local config file
